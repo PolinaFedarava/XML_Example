@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  <families xmlns = "http://www.example.org/family-schema"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation = "http://www.example.org/family-schema family-schema.xsd"
+> -->
+<families xmlns = "http://www.example.org/family-schema"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation = "http://www.example.org/family-schema family-schema-second.xsd"
+> 
+<!-- comment -->
+
+	<family id="1">
+
+		<mother maiden-name="Ivanova">
+			<name>Kate</name>
+			<surname>Petrova</surname>
+			<age>39</age>
+		</mother>
+
+		<father>
+			<name>Igor</name>
+			<surname>Petrov</surname>
+			<age>35</age>
+			<military />
+		</father>
+
+		<children>
+			<child>
+				<name>Eva</name>
+				<surname>Petrova</surname>
+				<age>5</age>
+				<gender>female</gender>
+			</child>
+			<child>
+				<name>Mark</name>
+				<surname>Petrov</surname>
+				<age>3</age>
+				<gender>male</gender>
+			</child>
+		</children>
+	</family>
+
+	<family id="2">
+		<mother maiden-name="Moroz">
+			<name>Nastya</name>
+			<surname>Fedorova</surname>
+			<age>40</age>
+		</mother>
+
+		<father>
+			<name>Alex</name>
+			<surname>Fedorov</surname>
+			<age>45</age>
+			<military />
+		</father>
+
+		<children>
+			<child>
+				<name>Veronika</name>
+				<surname>Fedorova</surname>
+				<age>12</age>
+				<gender>female</gender>
+			</child>
+			<child>
+				<name>Misha</name>
+				<surname>Fedorov</surname>
+				<age>15</age>
+				<gender>male</gender>
+			</child>
+			<child>
+				<name>Petr</name>
+				<surname>Fedorov</surname>
+				<age>9</age>
+				<gender>male</gender>
+			</child>
+			
+		</children>
+	</family>
+
+	<family id="3">
+	<mother maiden-name="Ivanova">
+			<name>Kate</name>
+			<surname>Petrova</surname>
+			<age>39</age>
+		</mother>
+
+		<father>
+			<name>Igor</name>
+			<surname>Petrov</surname>
+			<age>35</age>
+			<military />
+		</father>
+
+		<children>
+			<child>
+				<name>Eva</name>
+				<surname>Petrova</surname>
+				<age>5</age>
+				<gender>female</gender>
+			</child>
+			<child>
+				<name>Mark</name>
+				<surname>Petrov</surname>
+				<age>3</age>
+				<gender>male</gender>
+			</child>
+		</children>
+	</family>
+
+</families>
